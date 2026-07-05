@@ -86,7 +86,17 @@
 
                 case 5:
                     // grade grounding system (task 5) 
-
+                    Console.Write("enter your raw marks score:");
+                    double roundedScore = Math.Round(rawScore, 0);
+                    if (roundedScore >= 60)
+                    {
+                        Console.WriteLine("Result: Pass");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Result: Fail");
+                    }
+                    break;
 
             }
 
